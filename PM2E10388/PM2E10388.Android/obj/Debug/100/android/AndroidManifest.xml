@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.companyname.pm2e10388" android:installLocation="auto" android:versionCode="1" android:versionName="1.0">
+  <uses-sdk android:minSdkVersion="23" android:targetSdkVersion="29" />
+  <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+  <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+  <uses-feature android:name="android.hardware.camera" android:required="false" />
+  <uses-feature android:name="android.hardware.camera.autofocus" android:required="false" />
+  <uses-feature android:name="android.hardware.location.gps" />
+  <uses-feature android:name="android.hardware.location.network" />
+  <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+  <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+  <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+  <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+  <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" />
+  <uses-permission android:name="android.permission.ACCESS_MOCK_LOCATION" />
+  <uses-permission android:name="android.permission.ACCESS_MEDIA_LOCATION" />
+  <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+  <uses-permission android:name="android.permission.INTERNET" />
+  <queries>
+    <intent>
+      <action android:name="android.media.browse.MediaBrowserService" />
+    </intent>
+  </queries>
+  <uses-feature android:glEsVersion="0x00020000" android:required="true" />
+  <application android:name="android.app.Application" android:allowBackup="true" android:appComponentFactory="androidx.core.app.CoreComponentFactory" android:debuggable="true" android:extractNativeLibs="false" android:icon="@mipmap/icon" android:label="PM2E10388.Android" android:theme="@style/MainTheme">
+    <provider android:name="androidx.core.content.FileProvider" android:authorities="com.companyname.pm2e10388.fileprovider" android:exported="false" android:grantUriPermissions="true">
+      <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/file_paths" />
+    </provider>
+    <meta-data android:name="com.google.android.maps.v2.API_KEY" android:value="AIzaSyAIQjG3HjV_z2FANDjvqwDrJeQdtzRkNQE" />
+    <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version" />
+    <uses-library android:name="org.apache.http.legacy" android:required="false" />
+    <activity android:name="crc64d178b3f4596dba36.MainActivity" android:configChanges="orientation|smallestScreenSize|screenLayout|screenSize|uiMode" android:icon="@mipmap/icon" android:label="PM2E10388" android:theme="@style/MainTheme">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+        <category android:name="android.intent.category.LAUNCHER" />
+      </intent-filter>
+    </activity>
+    <activity android:name="crc646957603ea1820544.MediaPickerActivity" android:configChanges="orientation|screenSize|uiMode" />
+    <service android:name="crc64396a3fe5f8138e3f.KeepAliveService" />
+    <receiver android:name="crc64a0e0a82d0db9a07d.BatteryBroadcastReceiver" android:enabled="true" android:exported="false" android:label="Essentials Battery Broadcast Receiver" />
+    <receiver android:name="crc64a0e0a82d0db9a07d.EnergySaverBroadcastReceiver" android:enabled="true" android:exported="false" android:label="Essentials Energy Saver Broadcast Receiver" />
+    <receiver android:name="crc64a0e0a82d0db9a07d.ConnectivityBroadcastReceiver" android:enabled="true" android:exported="false" android:label="Essentials Connectivity Broadcast Receiver" />
+    <activity android:name="crc64a0e0a82d0db9a07d.IntermediateActivity" android:configChanges="orientation|screenSize" />
+    <provider android:name="xamarin.essentials.fileProvider" android:authorities="com.companyname.pm2e10388.fileProvider" android:exported="false" android:grantUriPermissions="true">
+      <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/xamarin_essentials_fileprovider_file_paths" />
+    </provider>
+    <activity android:name="crc64a0e0a82d0db9a07d.WebAuthenticatorIntermediateActivity" android:configChanges="orientation|screenSize" />
+    <receiver android:name="crc643f46942d9dd1fff9.PowerSaveModeBroadcastReceiver" android:enabled="true" android:exported="false" />
+    <provider android:name="mono.MonoRuntimeProvider" android:authorities="com.companyname.pm2e10388.mono.MonoRuntimeProvider.__mono_init__" android:exported="false" android:initOrder="1999999999" />
+    <!-- suppress ExportedReceiver -->
+    <receiver android:name="mono.android.Seppuku">
+      <intent-filter>
+        <action android:name="mono.android.intent.action.SEPPUKU" />
+        <category android:name="mono.android.intent.category.SEPPUKU.com.companyname.pm2e10388" />
+      </intent-filter>
+    </receiver>
+    <activity android:name="com.google.android.gms.common.api.GoogleApiActivity" android:exported="false" android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+  </application>
+</manifest>

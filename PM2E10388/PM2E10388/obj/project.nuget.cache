@@ -1,0 +1,25 @@
+{
+  "version": 2,
+  "dgSpecHash": "zLlpEEmq0it0StCG3+K2ISIdwF80uoDf4YkTrYR40Qw+E0if2j9l1sKQYuYt8uON7lr8iE9h+LFBubdZugQoGw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Alejandro\\source\\repos\\PM2E10388MAP\\PM2E10388\\PM2E10388\\PM2E10388.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Alejandro\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Alejandro\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\Alejandro\\.nuget\\packages\\sqlite-net-pcl\\1.8.116\\sqlite-net-pcl.1.8.116.nupkg.sha512",
+    "C:\\Users\\Alejandro\\.nuget\\packages\\sqlitepclraw.bundle_green\\2.0.4\\sqlitepclraw.bundle_green.2.0.4.nupkg.sha512",
+    "C:\\Users\\Alejandro\\.nuget\\packages\\sqlitepclraw.core\\2.0.4\\sqlitepclraw.core.2.0.4.nupkg.sha512",
+    "C:\\Users\\Alejandro\\.nuget\\packages\\sqlitepclraw.lib.e_sqlite3\\2.0.4\\sqlitepclraw.lib.e_sqlite3.2.0.4.nupkg.sha512",
+    "C:\\Users\\Alejandro\\.nuget\\packages\\sqlitepclraw.provider.e_sqlite3\\2.0.4\\sqlitepclraw.provider.e_sqlite3.2.0.4.nupkg.sha512",
+    "C:\\Users\\Alejandro\\.nuget\\packages\\system.buffers\\4.4.0\\system.buffers.4.4.0.nupkg.sha512",
+    "C:\\Users\\Alejandro\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512",
+    "C:\\Users\\Alejandro\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\Alejandro\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.2\\system.runtime.compilerservices.unsafe.4.5.2.nupkg.sha512",
+    "C:\\Users\\Alejandro\\.nuget\\packages\\xam.plugin.geolocator\\4.5.0.6\\xam.plugin.geolocator.4.5.0.6.nupkg.sha512",
+    "C:\\Users\\Alejandro\\.nuget\\packages\\xam.plugin.media\\5.0.1\\xam.plugin.media.5.0.1.nupkg.sha512",
+    "C:\\Users\\Alejandro\\.nuget\\packages\\xamarin.essentials\\1.7.1\\xamarin.essentials.1.7.1.nupkg.sha512",
+    "C:\\Users\\Alejandro\\.nuget\\packages\\xamarin.forms\\5.0.0.2337\\xamarin.forms.5.0.0.2337.nupkg.sha512",
+    "C:\\Users\\Alejandro\\.nuget\\packages\\xamarin.forms.maps\\5.0.0.2337\\xamarin.forms.maps.5.0.0.2337.nupkg.sha512"
+  ],
+  "logs": []
+}
